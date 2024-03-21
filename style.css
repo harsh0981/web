@@ -1,0 +1,41 @@
+
+      
+        #grad1 {
+            height: 900px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: linear-gradient(rgb(32, 112, 124),rgb(123, 155, 189));
+          }
+          #grad2 {
+            height: 600px;
+            background-color: grey; /* For browsers that do not support gradients */
+            background-image: linear-gradient(black,grey);
+          }
+         
+        .col-md-3
+        {
+        display: inline-block;
+        margin-left:-4px;
+        }
+        .carousel-indicators .active {
+        background-color: blue;
+          }
+        .col-md-3 img{
+        width:100%;
+        height:auto;
+        }
+        body .carousel-indicator li{
+        background-color: blue;
+        }
+        body .carousel-indicators{
+        bottom: 0;
+        }
+        body .carousel-control-prev-icon,
+        body .carousel-control-next-icon{
+        background-color: blue;
+        }
+         body .no-padding{
+         padding-left: 0,
+         padding-right: 0;
+         }
+  
+  
